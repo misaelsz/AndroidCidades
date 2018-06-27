@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Cadastrar"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:onClick="btnCadastrarClick"/>
+
+    <Button
+        android:id="@+id/btnListaSimples"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Lista Simples"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:onClick="btnListaSimplesClick"/>
+
+    <Button
+        android:id="@+id/btnListaAvancada"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Lista Avançada"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:onClick="btnListaAvancadaClick"/>
+
+</LinearLayout>

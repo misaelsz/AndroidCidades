@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:hint="Nome"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/edtPopulacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:hint="População"
+        android:textSize="35sp" />
+
+    <EditText
+        android:id="@+id/edtEstado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:hint="Estado"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/btnCadastrarCidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="Cadastrar"
+        android:textSize="35sp"
+        android:onClick="btnCadastrarClick"/>
+
+
+</LinearLayout>
